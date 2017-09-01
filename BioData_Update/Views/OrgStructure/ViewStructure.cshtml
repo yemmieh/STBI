@@ -1,0 +1,97 @@
+﻿
+@using BioData_Update.Models
+@model BioData_Update.Models.ViewStructure
+
+@{
+    ViewBag.Title = "View Org Structure";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>@ViewBag.Title</h4>
+
+<hr />
+
+<div class="stf_optionsContainer">
+    <div class="row">
+        <div class="col-md-12">
+
+            <section id="form">
+                @using (Html.BeginForm("ViewStructure", "OrgStructure", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+                {
+
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    @Html.HiddenFor(m => m.OrgBranch, new { id = "OrgBranch" })
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.SelectedBranch, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-3">
+                            @Html.DropDownListFor(m => m.SelectedBranch, Model.BranchName, "--- Select Branch ---", new { @class = "form-control", id = "selBranch", onchange = "setOrgBranch();" })
+                            @Html.ValidationMessageFor(m => m.SelectedBranch, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <span class='web-err'>@ViewBag.ErrorMessage</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="display:none;">
+                        <div class="col-md-offset-2 col-md-9">
+                            <input type="submit" value="View Structure" id="buttonSubmit" class="btn btn-default" />
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    /*Load Staff Members Here*/
+                    if (Model.AppraisalApproverModel != null && Model.AppraisalApproverModel.Count() > 0)
+                    {
+                        <div style='margin-top:1px;text-align:center;'>
+                            <h4>Organogram for @Model.OrgBranch</h4>
+                            @{
+                                <div style='width:90%;margin:20px auto;'>
+                                    @foreach (IEnumerable<AppraisalApproverModel> _aam in Model.AppraisalApproverModel)
+                                    {
+                                        <div style='margin:50px auto;'>
+                                            @foreach (AppraisalApproverModel aam in _aam)
+                                            {
+
+                                                float colWidth = 100 / _aam.Count();
+                                                <div style='display:inline-block;width:@colWidth;margin-right:20px;' title="@aam.StaffNumber">
+                                                    <!--<span style='font-size:1.8em;color:purple;' class="glyphicon glyphicon-user" aria-hidden="true"></span>-->
+                                                    <div class='appimage' style="background:@aam.ImageLink;background-size:cover;background-repeat:no-repeat;">
+                                                    </div>
+                                                    <hr style='margin:5px 0;' />
+                                                    <p style='font-size:0.8em;font-weight:normal;'>@aam.StaffName</p>
+                                                    <p style='font-size:0.65em;'>@aam.RoleTitle, @aam.StaffNumber</p>
+                                                </div>
+
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+                                }
+                                else
+                                {
+                                    <div>Nothing to display for @Model.OrgBranch</div>
+                                    }
+                                }
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        function setOrgBranch() {
+            $("#OrgBranch").val($("#selBranch option:selected").text());
+            $("#buttonSubmit").trigger("click")
+        };
+
+    </script>
+</div>
+
+

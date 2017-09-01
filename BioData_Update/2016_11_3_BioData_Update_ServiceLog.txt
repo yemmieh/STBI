@@ -1,0 +1,581 @@
+03/11/2016 9:28:51 : Entered GetStaffProfile
+03/11/2016 9:28:51 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:51 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:51 : Entered GetStaffProfile
+03/11/2016 9:28:51 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:51 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:51 : Entered GetStaffProfile
+03/11/2016 9:28:51 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:51 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:51 : Entered GetStaffProfile
+03/11/2016 9:28:51 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:51 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:52 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:52 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:52 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:52 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:52 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:52 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:52 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:52 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:52 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:52 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:52 : Entered GetStaffProfile
+03/11/2016 9:28:53 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:53 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:53 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:53 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:53 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : SearchUserByUserName : Exception!!! The (&((&(objectCategory=Person)(objectClass=User)))(samaccountname=)) search filter is invalid. / 
+03/11/2016 9:28:53 : GetStaffInformation : Exception!!! / Object reference not set to an instance of an object.
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:53 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:53 : Entered GetStaffProfile
+03/11/2016 9:28:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:54 : Entered GetStaffProfile
+03/11/2016 9:28:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:54 : Entered GetStaffProfile
+03/11/2016 9:28:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:54 : Entered GetStaffProfile
+03/11/2016 9:28:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:54 : Entered GetStaffProfile
+03/11/2016 9:28:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:28:55 : Entered GetStaffProfile
+03/11/2016 9:28:55 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:00 : Entered GetStaffProfile
+03/11/2016 9:29:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:04 : Entered GetStaffProfile
+03/11/2016 9:29:04 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:29 : Entered GetStaffProfile
+03/11/2016 9:29:29 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:41 : Entered GetStaffProfile
+03/11/2016 9:29:41 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:41 : Entered GetStaffProfile
+03/11/2016 9:29:41 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:41 : Entered GetStaffProfile
+03/11/2016 9:29:41 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:41 : Entered GetStaffProfile
+03/11/2016 9:29:41 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:42 : Entered GetStaffProfile
+03/11/2016 9:29:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:42 : Entered GetStaffProfile
+03/11/2016 9:29:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:29:42 : Entered GetStaffProfile
+03/11/2016 9:29:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:37 : Entered GetStaffProfile
+03/11/2016 9:30:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:30:57 : Entered GetStaffProfile
+03/11/2016 9:30:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:32:59 : Entered GetStaffProfile
+03/11/2016 9:32:59 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:02 : Entered GetStaffProfile
+03/11/2016 9:33:02 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:02 : Entered GetStaffProfile
+03/11/2016 9:33:02 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:03 : Entered GetStaffProfile
+03/11/2016 9:33:03 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:03 : Entered GetStaffProfile
+03/11/2016 9:33:03 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:03 : Entered GetStaffProfile
+03/11/2016 9:33:03 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:03 : Entered GetStaffProfile
+03/11/2016 9:33:03 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:33:03 : Entered GetStaffProfile
+03/11/2016 9:33:03 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:24 : Entered GetStaffProfile
+03/11/2016 9:47:24 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:24 : Entered GetStaffProfile
+03/11/2016 9:47:24 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:24 : Entered GetStaffProfile
+03/11/2016 9:47:24 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:24 : Entered GetStaffProfile
+03/11/2016 9:47:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:25 : Entered GetStaffProfile
+03/11/2016 9:47:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:25 : Entered GetStaffProfile
+03/11/2016 9:47:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:25 : Entered GetStaffProfile
+03/11/2016 9:47:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:47:25 : Entered GetStaffProfile
+03/11/2016 9:47:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:44 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:57:44 : Entered GetStaffProfile
+03/11/2016 9:57:45 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:24 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:58:25 : Entered GetStaffProfile
+03/11/2016 9:58:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:34 : Entered GetStaffProfile
+03/11/2016 9:59:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:39 : Entered GetStaffProfile
+03/11/2016 9:59:39 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:40 : Entered GetStaffProfile
+03/11/2016 9:59:40 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:42 : Entered GetStaffProfile
+03/11/2016 9:59:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:45 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:46 : Entered GetStaffProfile
+03/11/2016 9:59:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:54 : Entered GetStaffProfile
+03/11/2016 9:59:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:54 : Entered GetStaffProfile
+03/11/2016 9:59:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:54 : Entered GetStaffProfile
+03/11/2016 9:59:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:54 : Entered GetStaffProfile
+03/11/2016 9:59:54 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:54 : Entered GetStaffProfile
+03/11/2016 9:59:55 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:55 : Entered GetStaffProfile
+03/11/2016 9:59:55 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:55 : Entered GetStaffProfile
+03/11/2016 9:59:55 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 9:59:55 : Entered GetStaffProfile
+03/11/2016 9:59:55 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:25 : Entered GetStaffProfile
+03/11/2016 10:00:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:32 : Entered GetStaffProfile
+03/11/2016 10:00:33 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:33 : Entered GetUserName
+03/11/2016 10:00:34 : SearchUserByStaffNumber : One Found 20071488 
+03/11/2016 10:00:34 : SearchUserName : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:34 : Entered GetStaffProfile
+03/11/2016 10:00:34 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:35 : Entered GetStaffProfile
+03/11/2016 10:00:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:36 : Entered GetStaffProfile
+03/11/2016 10:00:36 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:36 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:37 : Entered GetStaffProfile
+03/11/2016 10:00:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:45 : Entered GetStaffProfile
+03/11/2016 10:00:45 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:46 : Entered GetStaffProfile
+03/11/2016 10:00:46 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:49 : Entered GetStaffProfile
+03/11/2016 10:00:49 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:57 : about to PostBackMessage : Exception!!! / Posted back
+03/11/2016 10:00:57 : After post back : Exception!!! / Posted back
+03/11/2016 10:00:57 : Entered GetStaffProfile
+03/11/2016 10:00:57 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:57 : get Awaiting : about firing getMyPendingPassportWorkflows!!! / 
+03/11/2016 10:00:57 :  getMyPendingPassportWorkflows :inside getMyPendingPassportWorkflows!!! / Okechukwu.Agufuobi
+03/11/2016 10:00:57 : get Entry List Count : Exception!!! / 0
+03/11/2016 10:00:57 : AwaitingMyApproval : Exception!!! / Sequence contains no elements
+03/11/2016 10:01:00 : Entered GetStaffProfile
+03/11/2016 10:01:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:00 : Entered GetStaffProfile
+03/11/2016 10:01:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:00 : Entered GetStaffProfile
+03/11/2016 10:01:00 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:00 : Entered GetStaffProfile
+03/11/2016 10:01:01 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:01 : Entered GetStaffProfile
+03/11/2016 10:01:01 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:01 : Entered GetStaffProfile
+03/11/2016 10:01:01 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:01:01 : Entered GetStaffProfile
+03/11/2016 10:01:01 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:19 : Entered GetStaffProfile
+03/11/2016 10:02:19 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:23 : Entered GetStaffProfile
+03/11/2016 10:02:23 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:25 : Entered GetStaffProfile
+03/11/2016 10:02:25 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:27 : Entered GetStaffProfile
+03/11/2016 10:02:27 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:30 : Entered GetStaffProfile
+03/11/2016 10:02:30 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:32 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:32 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:32 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:32 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:32 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:32 : Entered GetStaffProfile
+03/11/2016 10:02:33 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:33 : Entered GetStaffProfile
+03/11/2016 10:02:33 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:34 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:35 : Entered GetStaffProfile
+03/11/2016 10:02:35 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:36 : Entered GetStaffProfile
+03/11/2016 10:02:36 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:36 : Entered GetStaffProfile
+03/11/2016 10:02:36 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:36 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:37 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:37 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:37 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:37 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:37 : Entered GetStaffProfile
+03/11/2016 10:02:37 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:42 : about to PostBackMessage : Exception!!! / Posted back
+03/11/2016 10:02:42 : After post back : Exception!!! / Posted back
+03/11/2016 10:02:42 : Entered GetStaffProfile
+03/11/2016 10:02:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:42 : get Awaiting : about firing getMyPendingPassportWorkflows!!! / 
+03/11/2016 10:02:42 :  getMyPendingPassportWorkflows :inside getMyPendingPassportWorkflows!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:42 : get Entry List Count : Exception!!! / 0
+03/11/2016 10:02:42 : AwaitingMyApproval : Exception!!! / Sequence contains no elements
+03/11/2016 10:02:42 : Entered GetStaffProfile
+03/11/2016 10:02:42 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:42 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:43 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:43 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:43 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:43 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:02:43 : Entered GetStaffProfile
+03/11/2016 10:02:43 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:10 : Entered GetStaffProfile
+03/11/2016 10:03:10 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi
+03/11/2016 10:03:21 : Entered GetStaffProfile
+03/11/2016 10:03:21 : GetStaffInformation : User found!!! / Okechukwu.Agufuobi

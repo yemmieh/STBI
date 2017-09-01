@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 20.25" name="ExceedConnection">
+  <DataContextMoniker Name="/ExceedConnectionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7d8955dd-e4e4-4d4f-8a99-c822c77f96f9" absoluteBounds="0.5, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/ExceedConnectionDataContext/vw_branch_analysi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c4b7828-0616-4ae3-a635-c51262e0ddbe" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f373989c-807a-4866-9759-634684f5f52b" absoluteBounds="2.75, 0.5, 2, 19.462628580729167">
+      <DataClassMoniker Name="/ExceedConnectionDataContext/vw_employeeinfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05c0585f-5955-4128-8588-cd37c3e22f18" absoluteBounds="2.7649999999999997, 0.96, 1.9700000000000002, 18.902628580729164" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5284605-141c-4290-b08a-f07431e3bd2e" absoluteBounds="5, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/ExceedConnectionDataContext/cm_department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a10d6e75-c8c5-4f64-9af7-18c28ef3b311" absoluteBounds="5.0150000000000006, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

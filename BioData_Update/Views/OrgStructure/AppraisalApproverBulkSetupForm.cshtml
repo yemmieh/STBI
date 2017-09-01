@@ -1,0 +1,94 @@
+﻿@using BioData_Update.Models
+@model BioData_Update.Models.SuperApproverBulkSetupModel
+
+@{
+    ViewBag.Title = "Approver Setup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    WebGrid grid = new WebGrid(Model.ApproverExcelModel, rowsPerPage: 1000);
+}
+
+<h4>@ViewBag.Title</h4>
+
+<hr />
+
+<div class="stf_optionsContainer">
+    <div class="row">
+        <div class="col-md-12">
+
+            <section id="form">
+                @using (Html.BeginForm("AppraisalApproverBulkSetupForm", "OrgStructure", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+                {
+
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.AppraisalApproverBulkModel.UploadedExcelFile, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.AppraisalApproverBulkModel.UploadedExcelFile, new { @class = "form-control", type = "file", id = "UploadedExcelFile" })
+                            @Html.ValidationMessageFor(m => m.AppraisalApproverBulkModel.UploadedExcelFile, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <span class='web-err'>@ViewBag.ErrorMessage</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-10 col-md-offset-2">
+                            <input type="submit" value="Upload File" class="btn btn-default  col-md-1" name="action:Upload" />
+                            @if (Model.ApproverExcelModel != null && Model.ApproverExcelModel.Count() > 0)
+                            {
+                                <input type="submit" value="Setup Approvers" class="btn btn-default col-md-offset-1 col-md-2" name="action:BulkSetup" />
+                            }
+                        </div>
+                    </div>
+
+                    @*<br /><br /><p>Opel</p>
+                        @Html.Raw(Model.BHBulkSetupFormModel.UploadedExcelFileTable)*@
+
+                TempData["superBulkSetupModel"] = Model;
+
+                if (Model.ApproverExcelModel != null && Model.ApproverExcelModel.Count() > 0)
+                {
+
+                    int rowNum = 0;
+                    ViewBag.HasGrid = true;
+
+                    @grid.GetHtml(
+                                        tableStyle: "viewTable BHBulkSetupForm",
+                                        fillEmptyRows: false,
+                                        headerStyle: "viewTableHeader",
+                                        footerStyle: "viewTableFooter",
+                                        mode: WebGridPagerModes.All,
+                                        firstText: "<< First",
+                                        previousText: "< Prev",
+                                        nextText: "Next >",
+                                        lastText: "Last >>",
+                                        columns: new[] {
+                                            grid.Column("S/NO",format: item => rowNum = rowNum + 1),
+                                            grid.Column("approvername","Name"),
+                                            grid.Column("approverid","Staff ID"),
+                                            grid.Column("role","Role"  ),
+                                            grid.Column("unitname","Unit"  ),
+                                            grid.Column("deptname","Dept/Branch"),
+                                            grid.Column("groupname","Group/Zone"),
+                                            grid.Column("supergroupname","Super Group/Super Zone"),
+                                            grid.Column("comments","Comments")
+                                            //grid.Column("Action",format:(item) => Html.ActionLink("Edit", "ApproverSetupEdit", "OrgStructure",new { EntryKey=@item.entrykey,Func="Edit"},null)),
+                                            //grid.Column("Delete",format:(item) => Html.ActionLink("Delete", "ApproverSetupEdit", "OrgStructure",new { EntryKey=@item.entrykey,Func="Delete"},null))
+                                        })
+                    }
+                    else
+                    {
+                        <p>Nothing to display</p>
+                        ViewBag.HasGrid = null;
+                    }
+                }
+            </section>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LocationConnection">
+  <DataContextMoniker Name="/LocationConnectionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="eb053d19-cd8a-4e64-983d-52b81266fca5" absoluteBounds="2.75, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LocationConnectionDataContext/STATE_LISTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24845d98-8bd3-4c49-bd6a-0799eb1c6f33" absoluteBounds="2.765, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="40c5bb1f-1b0a-454d-9365-2c15e2d8b58b" absoluteBounds="5, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LocationConnectionDataContext/LGA_LISTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c11f2a3-7e40-4eff-b8ee-2cfb2c0d1a7f" absoluteBounds="5.015, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="842215de-45ac-4556-9b6b-0d79eb677dbf" absoluteBounds="0.5, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LocationConnectionDataContext/COUNTRY_LISTING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94598989-02b7-41bb-9745-b2c0013201fb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10" name="AppraisalConnection">
+  <DataContextMoniker Name="/AppraisalConnectionDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1982c66d-089b-4a5d-b808-53ac45dcebc3" absoluteBounds="2.75, 0.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c29872bb-be49-4144-8f1e-e74e70dab984" absoluteBounds="2.7649999999999997, 0.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ef000156-5798-4c40-8ac4-e95954f05c1c" absoluteBounds="7.25, 2.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_stage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb5d84d0-292d-4541-8f74-08a9807ac091" absoluteBounds="7.2650000000000006, 2.9600000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8d94b77-78a7-433b-9b55-899b6ea45ba1" absoluteBounds="2.75, 5.5, 2, 4.2708154296875">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_passport_approver" />
+      <nestedChildShapes>
+        <elementListCompartment Id="adf5d933-5894-4cb2-bb89-961c7d3565a8" absoluteBounds="2.765, 5.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2c82838-d3d5-4b0a-be31-b45c288a9cdd" absoluteBounds="5, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_user_role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2de2605d-629e-480e-ba1c-b14fc4d6fb02" absoluteBounds="5.015, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="586f4777-6818-462f-800e-cc6f0b384098" absoluteBounds="5, 4, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_link_role_permission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7726998-e305-4bc0-b62d-10f0f246c5c6" absoluteBounds="5.015, 4.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2011b946-25d6-4b6d-93aa-7a3a805707e6" absoluteBounds="5, 5.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_user_permission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4be5ad0b-ee03-4bf0-84be-bcef5708ad99" absoluteBounds="5.015, 6.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9e322f1a-2468-4a47-9ce9-23763e814d44" absoluteBounds="7.25, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_workflow_approver_role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34893e03-6da4-43f7-8d87-6bd1dd8791ca" absoluteBounds="7.2650000000000006, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="302a697d-3861-46f7-9c23-f61150d21e47" absoluteBounds="0.5, 0.5, 2, 6.7707340494791657">
+      <DataClassMoniker Name="/AppraisalConnectionDataContext/zib_passportentry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="766c49be-ba7a-43be-91e4-3d25532d35d3" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

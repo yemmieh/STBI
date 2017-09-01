@@ -1,0 +1,576 @@
+﻿
+@model BioData_Update.Models.SuperPassportModel
+@using System.Xml
+
+@{
+    ViewBag.Title = "Passport Review";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    WebGrid apprvlgrid = new WebGrid(Model.ApprovalDetails, canPage: false);
+}
+
+<h4>@ViewBag.Title</h4>
+
+<hr />
+
+<div class="stf_optionsContainer">
+    <div class="row">
+        <div class="col-md-12">
+
+            <section id="form">
+                @using (Html.BeginForm("ReviewPassportForm", "PassportReview", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data", i = "3" }))
+                {
+
+                    @Html.HiddenFor(m => m.WorkflowID)
+                    @Html.HiddenFor(m => m.RequestStage)
+                    @Html.HiddenFor(m => m.RequestStageID)
+                    @Html.HiddenFor(m => m.CanSave)
+                    @Html.HiddenFor(m => m.RequestDate)
+
+                    //StaffADProfile
+                    @Html.HiddenFor(m => m.StaffADProfile.user_logon_name)
+                    @Html.HiddenFor(m => m.StaffADProfile.employee_number)
+                    @Html.HiddenFor(m => m.StaffADProfile.branch_name)
+                    @Html.HiddenFor(m => m.StaffADProfile.branch_code)
+                    @Html.HiddenFor(m => m.StaffADProfile.hodeptcode)
+                    @Html.HiddenFor(m => m.StaffADProfile.hodeptname)
+                    @Html.HiddenFor(m => m.StaffADProfile.appperiod)
+
+                    //EntryModel
+                    @Html.HiddenFor(m => m.EntryModel.WorkflowID)
+                    @Html.HiddenFor(m => m.EntryModel.StaffNumber)
+                    @Html.HiddenFor(m => m.EntryModel.StaffName)
+                    @Html.HiddenFor(m => m.EntryModel.Branch)
+                    @Html.HiddenFor(m => m.EntryModel.BranchCode)
+                    @Html.HiddenFor(m => m.EntryModel.DeptName)
+                    @Html.HiddenFor(m => m.EntryModel.DeptCode)
+                    @Html.HiddenFor(m => m.EntryModel.AppraisalPeriod)
+                    @Html.HiddenFor(m => m.EntryModel.AppraisalPeriodName)
+                    @Html.HiddenFor(m => m.EntryModel.RequestStage)
+                    @Html.HiddenFor(m => m.EntryModel.RequestStageId)
+                    @Html.HiddenFor(m => m.EntryModel.UploadStatus)
+                    @Html.HiddenFor(m => m.EntryModel.DateSubmitted)
+                    @*@Html.HiddenFor(m => m.EntryModel.Approvers           )*@
+                    @Html.HiddenFor(m => m.EntryModel.Action)
+
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    @Html.HiddenFor(m => m.StaffADProfile.countryCount, new { id = "countryCount" })
+
+                    <!--For Deletion of Staff-->
+                    <input name="PassportAction" type="submit" value="CountryCountRefresh" id="CountryCountRefresh" style="display:none;" />
+
+                    <input type="hidden" value="" name="StaffNumber" />
+
+                    string editMode = TempData["editMode"] as string;
+                    if (Model != null /*&& (Model.RequestStageID == 0 || Model.RequestStageID == -1)*/ ) {
+
+                        <div id="accordion">
+                            <h3>Staff Profile Information <span style="color:red;font-weight:600;">+</span></h3>
+                            <div class="profile-div-section">
+                                <div class="form-group col-md-12">
+                                    <div class="form-group col-md-3 ">
+                                        @Html.LabelFor(m => m.StaffADProfile.employee_number, new { @class = "control-label" })
+                                        <div>
+                                            @Html.TextBoxFor(m => m.EntryModel.StaffNumber, new { @class = "form-control stye-textfield-as-label", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.EntryModel.StaffNumber, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        @Html.LabelFor(m => m.EntryModel.StaffName, new { @class = "control-label" })
+                                        <div>
+                                            @Html.TextBoxFor(m => m.EntryModel.StaffName, new { @class = "form-control stye-textfield-as-label", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.EntryModel.StaffName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        @Html.LabelFor(m => m.EntryModel.StaffGrade, new { @class = "control-label" })
+                                        <div>
+                                            @Html.TextBoxFor(m => m.EntryModel.StaffGrade, new { @class = "form-control stye-textfield-as-label", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.EntryModel.StaffGrade, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        @Html.LabelFor(m => m.EntryModel.DOE, new { @class = "control-label" })
+                                        <div>
+                                            @Html.TextBoxFor(m => m.EntryModel.DOE, new { @class = "form-control stye-textfield-as-label", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.EntryModel.DOE, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <div class="form-group col-md-3 ">
+                                        @Html.LabelFor(m => m.EntryModel.Branch, new { @class = "control-label" })
+                                        <div>
+                                            @Html.TextBoxFor(m => m.EntryModel.Branch, new { @class = "form-control stye-textfield-as-label", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.EntryModel.Branch, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-3">
+                                        @*@Html.LabelFor(m => m.StaffADProfile.noOfCountries, new { @class = "control-label" })*@
+                                        <div>
+                                            @*@Html.DropDownListFor(m => m.StaffADProfile.noOfCountries, Model.StaffADProfile.NumberOfCountries, "--- Select Number of Countries ---", new { @class = "form-control", id = "noOfCountries", onchange = "setCountryNumber()" })
+                                            @Html.TextBoxFor(m => m.StaffADProfile.noOfCountries, new { @class = "form-control ", @readonly = "readonly", type = "text" })
+                                            @Html.ValidationMessageFor(m => m.StaffADProfile.noOfCountries, "", new { @class = "text-danger" })*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br /><br />
+                        </div>
+                        if (Model.PassportDetails.Count > 0)
+                        {
+
+                            <div id="accordion_two">
+                                <h3>Passport Information <span style="color:red;font-weight:600;">+</span></h3>
+
+                                <div>
+
+                                    @for (int i = 1; i <= Model.PassportDetails.Count; i++)
+                                    {
+
+                                        //@Html.HiddenFor(m => m.PassportDetails[i-1].passportType,  new { @id = "passportType" + (i - 1), @positionidx = (i - 1) })
+                                        @Html.HiddenFor(m => m.PassportDetails[i - 1].passportCountry, new { @id = "passportCountry" + (i - 1), @positionidx = (i - 1) })
+                                        @Html.HiddenFor(m => m.PassportDetails[i - 1].passportCountryCode, new { @id = "passportCountryCode" + (i - 1), @positionidx = (i - 1) })
+                                        @Html.HiddenFor(m => m.PassportDetails[i - 1].passportContentType)
+                                        @Html.HiddenFor(m => m.PassportDetails[i - 1].passportFileName)
+
+                                        <div class="form-group col-md-12">
+
+                                            <!--PASSPORT ROW 1-->
+                                            <div class="form-group col-md-3">
+                                                @*@Html.LabelFor(m => m.PassportDetails[i - 1].passportPhoto, new { @class = "control-label passport-label" })
+                                                    <div title=@Model.StaffADProfile.employee_number>
+                                                        <div class='appimage' style="background-image:@Model.StaffADProfile.imagelink;">
+                                                        </div>
+                                                    </div>*@
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportType, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportType, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportType, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportNationality, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @*@Html.DropDownListFor(m => m.PassportDetails[i - 1].passportNationality, Model.PassportDetails[i - 1].Nationality, "--- Select Passport Country ---", new { @class = "form-control passport-control ", id = "passportNationality" + (i - 1), onchange = "setCountryName($(this))", @positionidx = (i - 1) })*@
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportNationality, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportNationality, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportNumber, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportNumber, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportNumber, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <div class="form-group col-md-3">
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportSurname, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportSurname, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportSurname, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportOtherNames, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportOtherNames, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportOtherNames, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportSex, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportSex, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportSex, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <div class="form-group col-md-3">
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportDateOfBirth, new { @class = "control-label passport-label no-uppercase-control" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportDateOfBirth, new { @class = "form-control passport-control  stye-textfield-as-label", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportDateOfBirth, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportPlaceOfBirth, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportPlaceOfBirth, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportPlaceOfBirth, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportAuthority, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportAuthority, new { @class = "form-control passport-control stye-textfield-as-label", type = "text", @readonly = "readonly" })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportAuthority, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <div class="form-group col-md-3">
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportDateOfIssue, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportDateOfIssue, new
+                                               {
+                                                   @class = "form-control passport-control stye-textfield-as-label",
+                                                   @positionidx = (i - 1),
+                                                   id = "passportDateOfIssue" + (i - 1),
+                                                   @readonly = "readonly" @*@onblur = "setExpiryDateFieldBounds($(this))" onblur = "setExpiryDateFieldBounds($(this))"*@ })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportDateOfIssue, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportDateOfExpiry, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportDateOfExpiry, new { @class = "form-control passport-control stye-textfield-as-label", @readonly = "readonly", type = "text", @positionidx = (i - 1), id = "passportDateOfExpiry" + (i - 1) })
+                                                    @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportDateOfExpiry, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-3">
+                                                @Html.LabelFor(m => m.PassportDetails[i - 1].passportUpload, new { @class = "control-label passport-label" })
+                                                <div>
+                                                    @Html.ActionLink(Model.PassportDetails[i - 1].passportFileName, "DownloadAttachment", new {  }, new { target = "_blank", @class = "form-control passport-control stye-textfield-as-label document-link" })
+                                                    @*<input name="ReviewAction" type="submit" id="DownloadFile" value="View Passport" class="btn btn-default col-md-3" />*@
+                                                </div>
+                                            </div>
+                                            @*<div class="form-group col-md-3">
+                                                    @Html.LabelFor(m => m.PassportDetails[i - 1].passportSignature, new { @class = "control-label passport-label" })
+                                                    <div>
+                                                        @Html.TextBoxFor(m => m.PassportDetails[i - 1].passportSignature, new { @class = "form-control passport-control", type = "text" })
+                                                        @Html.ValidationMessageFor(m => m.PassportDetails[i - 1].passportSignature, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>*@
+                                        </div>
+                                        <hr />
+                                        <br /><br />
+
+                                        <div class="form-group col-md-12">
+                                            <embed src="@Url.Action("DownloadAttachment", "PassportReview")" width="50%" height="800px"/>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    }
+
+                    if (editMode.Equals("true")/*String.IsNullOrEmpty(editMode)*/)
+                    {
+                        <div class="form-group" style="margin-top:20px;">
+                            <div class="col-md-12">
+                                <input name="ReviewAction" type="submit" id="Deny" value="Deny" class="btn btn-default col-md-1" />
+                                <input name="ReviewAction" type="submit" id="Approve" value="Approve" class="btn btn-default col-md-offset-1 col-md-1" />
+                            </div>
+                        </div>
+                    }
+
+                    /*Load the Request Approval History Here*/
+                    if (Model.EntryModel != null && Model.EntryModel.Approvers != null && Model.EntryModel.Approvers.Count() > 0)
+                    {
+                        <div style='margin-top:50px;'>
+                            <h5>Request History</h5>
+                            <table class='viewTable approvalhistory'>
+                                <tr class="viewTableHeader"><th>S/NO</th><th>NAME</th><th>STAGE PROCESSED</th><th>ACTION TAKEN</th><th>COMMENTS</th><th>DATE/TIME</th></tr>
+                                @{
+                                    XmlDocument xml = new XmlDocument();
+                                    xml.LoadXml(Model.EntryModel.Approvers);
+                                    XmlNodeList xnList = xml.SelectNodes("/ApprovalHistory/Approvals");
+                                    var idx = 1;
+                                    foreach (XmlNode xn in xnList)
+                                    {
+                                        <tr>
+                                            <td>@idx</td>
+                                            <td>@xn["ApproverName"].InnerText</td>
+                                            <td>@xn["ApprovedStage"].InnerText</td>
+                                            <td>@xn["ApproverAction"].InnerText</td>
+                                            <td>@xn["ApproverComment"].InnerText</td>
+                                            <td>@xn["ApprovalDateTime"].InnerText</td>
+                                        </tr>
+                                        idx++;
+                                    }
+                                }
+                            </table>
+                        </div>
+                                        }
+                                    }
+            </section>
+        </div>
+    </div>
+    <script src="@Url.Content("~/Scripts/jquery-numeric.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.11.4.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        var tform = document.forms[0];
+
+        $(document).ready(function () {
+
+            $(function () {
+                $("#accordion").accordion({
+                    active: 0,
+                    collapsible: false
+                });
+
+                $("#accordion_two").accordion({
+                    collapsible: false
+                });
+
+
+            });
+
+            /*jQuery.validator.methods.date = function (value, element) {
+                var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+                if (isChrome) {
+                    var d = new Date();
+                    return this.optional(element) || !/Invalid|NaN/.test(new Date(d.toLocaleDateString(value)));
+                } else {
+                    return this.optional(element) || !/Invalid|NaN/.test(new Date(value));
+                }
+            };
+
+            showdatebox($(".dob"));
+            showdatebox($(".issueDate"));
+
+            function showdatebox(v) {
+
+                var MAXDATE = "-180M +0D";
+                var MINDATE = "-1200M +0D";
+                var DATEFT = "D MM d, yy";
+
+                if (v.hasClass("dob")) {
+
+                    MAXDATE = "-240M +0D";
+                    MINDATE = "-2400M +0D";
+
+                    v.datepicker({
+                        dateFormat: 'D MM d, yy',
+                        maxDate: MAXDATE,
+                        minDate: MINDATE,
+                        showOtherMonths: true,
+                        selectOtherMonths: true,
+                        numberOfMonths: 2,
+                        changeMonth: true,
+                        changeYear: true,
+                        yearRange: "-100:+0"
+                    });
+                }
+
+                if ($(".issueDate").length > 0) {
+
+                    $(".issueDate").datepicker({
+                        dateFormat: DATEFT,
+                        maxDate: "-0M +0D",
+                        minDate: "-2400M +0D",
+                        changeMonth: true,
+                        numberOfMonths: 2,
+                        changeYear: true,
+                        onClose: function (selectedDate) {
+                            //computeExpiryDate( selectedDate, $(this) );
+                            setExpiryDateFieldBounds($(this))
+                        },
+                        onSelect: function (selectedDate) {
+                            //computeExpiryDate( selectedDate, $(this) );
+                            setExpiryDateFieldBounds($(this))
+                        }
+                    });
+                }
+            }
+
+            $(".positive-integer").numeric({ decimal: false, negative: false }, function () { alert("Positive integers only"); this.value = ""; this.focus(); });
+            */
+        })
+
+       /* function setExpiryDateFieldBounds(caller) {
+
+            var positionidx = caller.attr("positionidx");
+            var selectedCountry = $("#passportNationality" + positionidx);
+            var issueDateField = $("#passportDateOfIssue" + positionidx);
+            var expiryDateField = $("#passportDateOfExpiry" + positionidx);
+
+            var _issueDateVal = $.trim(issueDateField.val());
+            var expiryDateVal = $.trim(expiryDateField.val());
+
+            var DATEFT = "D MM d, yy";
+            _issueDateVal = document.getElementById("passportDateOfIssue" + positionidx).value //$("passportDateOfIssue" + positionidx);
+
+            if (selectedCountry.find(":selected").text() == "NIGERIA") {
+
+                expiryDateField.datepicker("destroy");
+                if (_issueDateVal != "") {
+                    var expiryDate = new Date(_issueDateVal);
+                    expiryDate.setFullYear(expiryDate.getFullYear() + 5);
+                    expiryDate.setDate(expiryDate.getDate() - 1);
+                    expiryDateField.val($.datepicker.formatDate("D MM d, yy", expiryDate));
+                }
+
+            } else {
+                var todaysDate = new Date();
+                expiryDateField.datepicker({
+                    dateFormat: DATEFT,
+                    changeMonth: true,
+                    changeYear: true,
+                    numberOfMonths: 2,
+                    onSelect: function (selectedDate) {
+                        if (Date.parse(selectedDate) > Date.parse(todaysDate)) {
+                            issueDateField.datepicker("option", "maxDate", '0');
+                        } else {
+                            issueDateField.datepicker("option", "maxDate", selectedDate);
+                        }
+                    },
+                    onClose: function (selectedDate) {
+                        if (selectedDate) {
+                            if (Date.parse(selectedDate) > Date.parse(todaysDate)) {
+                                issueDateField.datepicker("option", "maxDate", '0');
+                            } else {
+                                issueDateField.datepicker("option", "maxDate", selectedDate);
+                            }
+                        }
+                    }
+                }).css({ cursor: "pointer" });
+                if (_issueDateVal != "") {
+                    var selectedDate_ = $.datepicker.parseDate("D MM d, yy", _issueDateVal)
+                    expiryDateField.datepicker("option", "minDate", selectedDate_);
+                }
+            }
+        }*/
+
+        function setCountryName(callingSelectField) {
+
+            setExpiryDateFieldBounds(callingSelectField)
+
+            var positionidx = callingSelectField.attr("positionidx");
+            var countryCodeField = $("#passportCountryCode" + positionidx);
+            var countryField = $("#passportCountry" + positionidx);
+
+            console.log(countryField)
+            console.log(countryCodeField)
+
+            if (callingSelectField.find(":selected").text() != "") {
+                countryCodeField.val( callingSelectField.find(":selected").val());
+                countryField.val(callingSelectField.find(":selected").text());
+            }
+        }
+
+        //Display this alert only when the user opens the form for the first time
+        var newRequest = Boolean( @ViewBag.NewRequest );
+        if (newRequest) {
+            alert("Kindly input targets for staff who were reassigned from your branch/department after April 1, 2016.");
+        }
+
+        function setCountryNumber( ) {
+
+            $("#countryCount").val($("#noOfCountries option:selected").val());
+            $("#CountryCountRefresh").trigger("click");
+
+        };
+
+        function getStaffProfile(staffnumber) {
+            //alert()
+            //    alert(staffnumber)
+            var StaffNumber = "";
+            var StaffName = "";
+            var StaffGrade = "";
+
+            $.ajax({
+                type: "POST",
+                //url: "../HRSetup/GetStaffProfile",
+                url: '@Url.Action("GetStaffProfile", "HRSetup")',
+                traditional: true,
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify({ StaffNumber: staffnumber }),
+                success: function (data) {
+                    var StaffName = "";
+
+                    if (data[0] == undefined || data[0] == null) {
+                        StaffName = data.name;
+                        StaffNumber = data.employee_number;
+                        StaffGrade = data.grade_code;
+
+                        $("#in_StaffName").val("");
+                        $("#in_StaffNumber").val("");
+                        $("#in_StaffGrade").val("");
+
+                        $(".web-err").html(StaffNumber + "_" + StaffName);
+
+                    } else {
+                        StaffName = data[0].name;
+                        StaffNumber = data[0].employee_number;
+                        StaffGrade = data[0].grade_code;
+
+                        $("#in_StaffName").val(StaffName);
+                        $("#in_StaffNumber").val(StaffNumber);
+                        $("#in_StaffGrade").val(StaffGrade);
+
+                        $(".web-err").html("");
+                    }
+
+                }, error: function (data) {
+                    //console.log(data)
+                }
+            });
+        }
+        function addCommas(str) {
+            return (str + "").replace(/\b(\d+)((\.\d+)*)\b/g, function (a, b, c) {
+                return (b.charAt(0) > 0 && !(c || ".").lastIndexOf(".") ? b.replace(/(\d)(?=(\d{3})+$)/g, "$1,") : b) + c;
+            });
+        }
+        function roundNumber(number) {
+            var newnumber = new Number(number + '').toFixed(parseInt(2));
+            return new String(parseFloat(newnumber));
+        }
+        function removeCommas(e) {
+            if (!e || e == "") { return false; }
+            while (e.indexOf(",") > -1) { e = e.replace(",", ""); }
+            return e;
+        }
+
+        /*function showdatebox(v) {
+
+            var MAXDATE = "0M +0D";
+            var MINDATE = "-1200M +0D";
+            var DATEFT = 'D MM d, yy';
+            //console.log(v)
+            v.datepicker({
+                dateFormat: 'D MM d, yy',
+                maxDate: MAXDATE,
+                minDate: MINDATE,
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                changeMonth: true,
+                yearRange: "-200+0",
+                changeYear: true
+            });
+        }*/
+
+    </script>
+</div>
+
